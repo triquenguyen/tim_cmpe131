@@ -1,0 +1,44 @@
+#support-faqs,
+#customer-forums,
+#instructional-videos,
+#informational-newsletters,
+#webinars,
+#request-forms,
+#online-courses,
+#social-updates {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
