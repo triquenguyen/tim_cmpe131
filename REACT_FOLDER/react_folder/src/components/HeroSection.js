@@ -1,6 +1,8 @@
 import React from 'react';
 import '../App.css';
 import { Button } from './Button';
+import { ContactUsButton } from './ContactUsButton';
+import { AboutUsButton } from './AboutUsButton';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,21 +12,21 @@ function HeroSection() {
       <h1>City Of Williamston</h1>
       <p>Discover the Charm</p>
       <div className='hero-btns'>
-        <Button
+        <ContactUsButton
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
           Contact
-        </Button>
-        <Button
+        </ContactUsButton>
+        <AboutUsButton
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
          About Us
-        </Button>
+        </AboutUsButton>
       </div>
     </div>
   );
