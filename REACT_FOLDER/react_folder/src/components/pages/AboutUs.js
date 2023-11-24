@@ -1,13 +1,15 @@
 import React from 'react';
 import '../../App.css';
-import AboutUsSection from '../AboutUsSection';
+import AboutUsHero from '../AboutUsHero';
+import AboutUsContent from '../AboutUsContent'
 import Footer from '../Footer';
 
 function AboutUs() {
   return (
     <>
-      <AboutUsSection />
-      <Footer />
+      <AboutUsHero/>
+      <AboutUsContent/>
+      <Footer/>
     </>
   );
 }
