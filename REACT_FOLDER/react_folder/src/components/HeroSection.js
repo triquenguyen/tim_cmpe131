@@ -8,7 +8,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src='/images/image1.jpeg' autoPlay loop muted />
+      <img src='/images/image1.jpeg' className="aboutus-bg-img" autoPlay loop muted />
       <h1>City Of Williamston</h1>
       <p>Discover the Charm</p>
       <div className='hero-btns'>
